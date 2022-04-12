@@ -37,7 +37,7 @@ with mp_face_mesh.FaceMesh(
             cv2.circle(frame, center_right, int(r_radius), (2,0,255),2,cv2.LINE_AA)
             print(mesh_points)
             
-            # for coordinates in floatting points
+            ## for coordinates in floatting points
             # print(results.multi_face_landmarks[0].landmark)
 
     
